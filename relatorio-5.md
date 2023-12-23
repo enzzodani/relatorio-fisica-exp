@@ -44,22 +44,28 @@ $$
 * [x] Modelo de medição 
 
 ---
+
 $$
 l(m) = l_0 + \frac{gm}{k}\text{, onde m é a massa, g a gravidade local, } l_0 \text{ é o comprimento inicial e } l\text{ é o comprimento medido}
 $$
+
 ---
+
 $$
 k = \frac{g\times m}{\Delta x}\text{, onde m é a massa, g a gravidade local, } \Delta x \text{é a diferença entre o comprimento inicial e o comprimento medido}
 $$
+
 ---
 
 # *Analise de Resultados*
 * [x] Escreva explicitamente a expressão da incerteza combinada no valor de k (uK) para o modelo de medição usado no cálculo das constantes elásticas da MOLA 1, MOLA 2 e ASSOCIAÇÃO EM SÉRIE.
 
 ---
+
 $$
 u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_k = \sqrt{(\frac{\partial{k}}{\partial{m}})^2\sigma_m^2 + (\frac{\partial{k}}{\partial{g}})^2\sigma_g^2 + (\frac{\partial{k}}{\partial{\Delta{x}}})^2\sigma_{\Delta{x}}^2} = \sqrt{(\frac{g}{\Delta{x}})^2\sigma_m^2 + (\frac{m}{\Delta{x}})^2\sigma_g^2 + (\frac{-mg}{\Delta{x}^2})^2\sigma_{\Delta{x}}^2} = \sqrt{\frac{g^2}{\Delta{x}^2}\sigma_m^2 + \frac{m^2}{\Delta{x}^2}\sigma_g^2 + \frac{m^2g^2}{\Delta{x}^4}^2\sigma_{\Delta{x}}^2} = \sqrt{\frac{g^2m^2}{\Delta{x}^2}(\frac{\sigma_m^2}{m^2} + \frac{\sigma_g^2}{g^2} + \frac{\sigma_{\Delta{x}}^2}{\Delta{x}^2})} = \frac{gm}{\Delta{x}}\sqrt{\frac{\sigma_m^2}{m^2} + \frac{\sigma_g^2}{g^2} + \frac{\sigma_{\Delta{x}}^2}{\Delta{x}^2}}
 $$
+
 ---
 
 # *Mola 1*
@@ -128,80 +134,153 @@ $$
 ## *Compatibilidade dois a dois*
 ### k1.1 e k1.2
 ---
+
 $$
 \frac{|k_{1.1} - k_{1.2}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.2}})^2}} = \frac{|17,3 - 17,64|}{\sqrt{(1,7)^2+(0,96)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.2} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.1 e k1.3
 ---
+
 $$
 \frac{|k_{1.1} - k_{1.3}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.3}})^2}} = \frac{|17,3 - 17,79|}{\sqrt{(1,7)^2+(0,67)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.3} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.1 e k1.4
 ---
+
 $$
 \frac{|k_{1.1} - k_{1.4}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.4}})^2}} = \frac{|17,3 - 17,41|}{\sqrt{(1,7)^2+(0,49)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.4} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.1 e k1.5
 ---
+
 $$
 \frac{|k_{1.1} - k_{1.5}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.5}})^2}} = \frac{|17,3 - 0,2580|}{\sqrt{(1,7)^2+(0,41)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.2 e k1.3
 ---
+
 $$
 \frac{|k_{1.2} - k_{1.3}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.3}})^2}} = \frac{|17,64 - 17,79|}{\sqrt{(0,96)^2+(0,67)^2}} = \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.3} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.2 e k1.4
 ---
+
 $$
 \frac{|k_{1.2} - k_{1.4}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.4}})^2}} = \frac{|17,64 - 17,41|}{\sqrt{(0,96)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.4} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.2 e k1.5
 ---
+
 $$
 \frac{|k_{1.2} - k_{1.5}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.5}})^2}} = \frac{|0,1760 - 0,2580|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.3 e k1.4
 ---
+
 $$
 \frac{|k_{1.3} - k_{1.4}|}{\sqrt{(u_{k_{1.3}})^2+(u_{k_{1.4}})^2}} = \frac{|0,2030 - 0,2330|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.3} \text{ e } k_{1.4} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.3 e k1.5
 ---
+
 $$
 \frac{|k_{1.3} - k_{1.5}|}{\sqrt{(u_{k_{1.3}})^2+(u_{k_{1.5}})^2}} = \frac{|0,2030 - 0,2580|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.3} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
+
 ---
 ### k1.4 e k1.5
 ---
+
 $$
 \frac{|k_{1.4} - k_{1.5}|}{\sqrt{(u_{k_{1.4}})^2+(u_{k_{1.5}})^2}} = \frac{|0,2330 - 0,2580|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.4} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
+
 ---
 
 
 * [ ] k1 = ( $\pm$ ) N/m
 
 # *Mola 2*
-* [ ] Escreva os valores de k2 obtidos para cada uma das cinco medições realizadas para a MOLA 2
+* [x] Escreva os valores de k2 obtidos para cada uma das cinco medições realizadas para a MOLA 2
 * [ ] Analise dois a dois a compatibilidade dos resultados apresentados 
 * [ ] Obtenha o valor de k2 resultante das medidas através do cálculo da média ponderada
 
-* [ ] k2.1 = (0,1510 $\pm$ 0,0023) N/m
-* [ ] k2.2 = (0,1830 $\pm$ 0,0023) N/m
-* [ ] k2.3 = (0,2130 $\pm$ 0,0023) N/m
-* [ ] k2.4 = (0,2440 $\pm$ 0,0023) N/m
-* [ ] k2.5 = (0,2750 $\pm$ 0,0023) N/m
+* [x] k2.1 = (15,4 $\pm$ 1,3) N/m
+* [x] k2.2 = (15,37 $\pm$ 0,73) N/m
+* [x] k2.3 = (15,65 $\pm$ 0,52) N/m
+* [x] k2.4 = (15,68 $\pm$ 0,40) N/m
+* [x] k2.5 = (15,70 $\pm$ 0,32) N/m
 
 ---
+
+## *Constante elástica*
+### Caso 1
+#### Incerteza
+$$
+u_{k1}=\frac{0,06000\times9,782028}{0,0380}\sqrt{(\frac{0,00058}{0,06000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,0380})^2}=1,3\frac{N}{m}
+$$
+
+#### Valor Principal
+$$
+k_1 = \frac{0,06000\times9,782028}{0,0380} = 15,4\frac{N}{m}
+$$
+
+### Caso 2
+#### Incerteza
+$$
+u_{k2}=\frac{0,11000\times9,782028}{0,0700}\sqrt{(\frac{0,00058}{0,11000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,0700})^2}=0,73\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_2 = \frac{0,11000\times9,782028}{0,0700} = 15,37\frac{N}{m}
+$$
+
+### Caso 3
+#### Incerteza
+$$
+u_{k3}=\frac{0,16000\times9,782028}{0,1000}\sqrt{(\frac{0,00058}{0,16000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,1000})^2}=0,52\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_3 = \frac{0,16000\times9,782028}{0,1000} = 15,65\frac{N}{m}
+$$
+
+### Caso 4
+#### Incerteza
+$$
+u_{k4}=\frac{0,21000\times9,782028}{0,1310}\sqrt{(\frac{0,00058}{0,21000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,1310})^2}=0,40\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_4 = \frac{0,21000\times9,782028}{0,1310} = 15,68\frac{N}{m}
+$$
+
+### Caso 5
+#### Incerteza
+$$
+u_{k5}=\frac{0,26000\times9,782028}{0,1620}\sqrt{(\frac{0,00058}{0,26000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,1620})^2}=0,32\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_5 = \frac{0,26000\times9,782028}{0,1620} = 15,70\frac{N}{m}
+$$
+
 
 ---
 
