@@ -287,17 +287,69 @@ $$
 * [ ] k2 = ( $\pm$ ) N/m
 
 # *Mola em série*
-* [ ] Escreva os valores de ks obtidos para cada uma das cinco medições realizadas para a MOLA em serie
+* [x] Escreva os valores de ks obtidos para cada uma das cinco medições realizadas para a MOLA em serie
 * [ ] Analise dois a dois a compatibilidade dos resultados apresentados 
 * [ ] Obtenha o valor de ks resultante das medidas através do cálculo da média ponderada
 
-* [ ] ks.1 = (0,3130 $\pm$ 0,0023) N/m
-* [ ] ks.2 = (0,3710 $\pm$ 0,0023) N/m
-* [ ] ks.3 = (0,4310 $\pm$ 0,0023) N/m
-* [ ] ks.4 = (0,4930 $\pm$ 0,0023) N/m
-* [ ] ks.5 = (0,5530 $\pm$ 0,0023) N/m
+* [x] ks.1 = (8,27 $\pm$ 0,39) N/m
+* [x] ks.2 = (8,34 $\pm$ 0,22) N/m
+* [x] ks.3 = (8,28 $\pm$ 0,14) N/m
+* [x] ks.4 = (8,18 $\pm$ 0,11) N/m
+* [x] ks.5 = (8,178 $\pm$ 0,089) N/m
 
 ---
+
+## *Constante elástica*
+### Caso 1
+#### Incerteza
+$$
+u_{k1}=\frac{0,06000\times9,782028}{0,0710}\sqrt{(\frac{0,00058}{0,06000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,0710})^2}=0,39\frac{N}{m}
+$$
+
+#### Valor Principal
+$$
+k_1 = \frac{0,06000\times9,782028}{0,0710} = 8,27\frac{N}{m}
+$$
+
+### Caso 2
+#### Incerteza
+$$
+u_{k2}=\frac{0,11000\times9,782028}{0,1290}\sqrt{(\frac{0,00058}{0,11000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,1290})^2}=0,22\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_2 = \frac{0,11000\times9,782028}{0,1290} = 8,34\frac{N}{m}
+$$
+
+### Caso 3
+#### Incerteza
+$$
+u_{k3}=\frac{0,16000\times9,782028}{0,1890}\sqrt{(\frac{0,00058}{0,16000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,1890})^2}=0,14\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_3 = \frac{0,16000\times9,782028}{0,1890} = 8,28\frac{N}{m}
+$$
+
+### Caso 4
+#### Incerteza
+$$
+u_{k4}=\frac{0,21000\times9,782028}{0,2510}\sqrt{(\frac{0,00058}{0,21000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,2510})^2}=0,11\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_4 = \frac{0,21000\times9,782028}{0,2510} = 8,18\frac{N}{m}
+$$
+
+### Caso 5
+#### Incerteza
+$$
+u_{k5}=\frac{0,26000\times9,782028}{0,3110}\sqrt{(\frac{0,00058}{0,26000})^2 + (\frac{0,000023}{9,782028})^2 + (\frac{0,0033}{0,3110})^2}=0,089\frac{N}{m}
+$$
+#### Valor Principal
+$$
+k_5 = \frac{0,26000\times9,782028}{0,3110} = 8,178\frac{N}{m}
+$$
 
 ---
 
