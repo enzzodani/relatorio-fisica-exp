@@ -71,7 +71,7 @@ $$
 
 # *Mola 1*
 * [x] Escreva os valores de k1 obtidos para cada uma das cinco medições realizadas para a MOLA 1
-* [ ] Analise dois a dois a compatibilidade dos resultados apresentados 
+* [x] Analise dois a dois a compatibilidade dos resultados apresentados 
 * [ ] Obtenha o valor de k1 resultante das medidas através do cálculo da média ponderada
 
 * [x] k1.1 = (17,3 $\pm$ 1,7) N/m
@@ -137,7 +137,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.1} - k_{1.2}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.2}})^2}} = \frac{|17,3 - 17,64|}{\sqrt{(1,7)^2+(0,96)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.2} \text{ são compatíveis} 
+\frac{|k_{1.1} - k_{1.2}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.2}})^2}} = \frac{|17,3 - 17,64|}{\sqrt{(1,7)^2+(0,96)^2}} = 0,174151 \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.2} \text{ são compatíveis} 
 $$
 
 ---
@@ -145,7 +145,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.1} - k_{1.3}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.3}})^2}} = \frac{|17,3 - 17,79|}{\sqrt{(1,7)^2+(0,67)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.3} \text{ são compatíveis} 
+\frac{|k_{1.1} - k_{1.3}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.3}})^2}} = \frac{|17,3 - 17,79|}{\sqrt{(1,7)^2+(0,67)^2}} = 0,268160 \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.3} \text{ são compatíveis} 
 $$
 
 ---
@@ -153,7 +153,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.1} - k_{1.4}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.4}})^2}} = \frac{|17,3 - 17,41|}{\sqrt{(1,7)^2+(0,49)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.4} \text{ são compatíveis} 
+\frac{|k_{1.1} - k_{1.4}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.4}})^2}} = \frac{|17,3 - 17,41|}{\sqrt{(1,7)^2+(0,49)^2}} = 0,0621747 \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.4} \text{ são compatíveis} 
 $$
 
 ---
@@ -161,7 +161,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.1} - k_{1.5}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.5}})^2}} = \frac{|17,3 - 0,2580|}{\sqrt{(1,7)^2+(0,41)^2}} = \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.5} \text{ são compatíveis} 
+\frac{|k_{1.1} - k_{1.5}|}{\sqrt{(u_{k_{1.1}})^2+(u_{k_{1.5}})^2}} = \frac{|17,3 - 17,79|}{\sqrt{(1,7)^2+(0,41)^2}} = 0,280201 \leq 2,5 \rightarrow k_{1.1} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
 
 ---
@@ -169,7 +169,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.2} - k_{1.3}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.3}})^2}} = \frac{|17,64 - 17,79|}{\sqrt{(0,96)^2+(0,67)^2}} = \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.3} \text{ são compatíveis} 
+\frac{|k_{1.2} - k_{1.3}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.3}})^2}} = \frac{|17,64 - 17,79|}{\sqrt{(0,96)^2+(0,67)^2}} = 0,128130 \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.3} \text{ são compatíveis} 
 $$
 
 ---
@@ -177,7 +177,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.2} - k_{1.4}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.4}})^2}} = \frac{|17,64 - 17,41|}{\sqrt{(0,96)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.4} \text{ são compatíveis} 
+\frac{|k_{1.2} - k_{1.4}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.4}})^2}} = \frac{|17,64 - 17,41|}{\sqrt{(0,96)^2+(0,49)^2}} = 0,213393 \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.4} \text{ são compatíveis} 
 $$
 
 ---
@@ -185,7 +185,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.2} - k_{1.5}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.5}})^2}} = \frac{|0,1760 - 0,2580|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.5} \text{ são compatíveis} 
+\frac{|k_{1.2} - k_{1.5}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.5}})^2}} = \frac{|17,64 - 17,79|}{\sqrt{(0,96)^2+(0,41)^2}} = 0,143694 \leq 2,5 \rightarrow k_{1.2} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
 
 ---
@@ -193,7 +193,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.3} - k_{1.4}|}{\sqrt{(u_{k_{1.3}})^2+(u_{k_{1.4}})^2}} = \frac{|0,2030 - 0,2330|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.3} \text{ e } k_{1.4} \text{ são compatíveis} 
+\frac{|k_{1.3} - k_{1.4}|}{\sqrt{(u_{k_{1.3}})^2+(u_{k_{1.4}})^2}} = \frac{|17,79 - 17,41|}{\sqrt{(0,67)^2+(0,49)^2}} = 0,457798 \leq 2,5 \rightarrow k_{1.3} \text{ e } k_{1.4} \text{ são compatíveis} 
 $$
 
 ---
@@ -201,7 +201,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.3} - k_{1.5}|}{\sqrt{(u_{k_{1.3}})^2+(u_{k_{1.5}})^2}} = \frac{|0,2030 - 0,2580|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.3} \text{ e } k_{1.5} \text{ são compatíveis} 
+\frac{|k_{1.3} - k_{1.5}|}{\sqrt{(u_{k_{1.3}})^2+(u_{k_{1.5}})^2}} = \frac{|17,79 - 17,79|}{\sqrt{(0.67)^2+(0,41)^2}} = 0 \leq 2,5 \rightarrow k_{1.3} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
 
 ---
@@ -209,7 +209,7 @@ $$
 ---
 
 $$
-\frac{|k_{1.4} - k_{1.5}|}{\sqrt{(u_{k_{1.4}})^2+(u_{k_{1.5}})^2}} = \frac{|0,2330 - 0,2580|}{\sqrt{(0,0023)^2+(0,0023)^2}} = \leq 2,5 \rightarrow k_{1.4} \text{ e } k_{1.5} \text{ são compatíveis} 
+\frac{|k_{1.4} - k_{1.5}|}{\sqrt{(u_{k_{1.4}})^2+(u_{k_{1.5}})^2}} = \frac{|17,41 - 17,79|}{\sqrt{(0,49)^2+(0,41)^2}} = 0,594767 \leq 2,5 \rightarrow k_{1.4} \text{ e } k_{1.5} \text{ são compatíveis} 
 $$
 
 ---
