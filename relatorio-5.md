@@ -437,6 +437,88 @@ $$
 
 ---
 
+## *Compatibilidade dois a dois*
+### ks.1 e ks.2
+---
+
+$$
+\frac{|k_{s.1} - k_{s.2}|}{\sqrt{(u_{k_{s.1}})^2+(u_{k_{s.2}})^2}} = \frac{|17,3 - 17,64|}{\sqrt{(1,7)^2+(0,96)^2}} = 0,174151 \leq 2,5 \rightarrow k_{s.1} \text{ e } k_{s.2} \text{ são compatíveis} 
+$$
+
+---
+### ks.1 e ks.3
+---
+
+$$
+\frac{|k_{s.1} - k_{s.3}|}{\sqrt{(u_{k_{s.1}})^2+(u_{k_{s.3}})^2}} = \frac{|17,3 - 17,79|}{\sqrt{(1,7)^2+(0,67)^2}} = 0,268160 \leq 2,5 \rightarrow k_{s.1} \text{ e } k_{s.3} \text{ são compatíveis} 
+$$
+
+---
+### ks.1 e ks.4
+---
+
+$$
+\frac{|k_{s.1} - k_{s.4}|}{\sqrt{(u_{k_{s.1}})^2+(u_{k_{s.4}})^2}} = \frac{|17,3 - 17,41|}{\sqrt{(1,7)^2+(0,49)^2}} = 0,0621747 \leq 2,5 \rightarrow k_{s.1} \text{ e } k_{s.4} \text{ são compatíveis} 
+$$
+
+---
+### ks.1 e ks.5
+---
+
+$$
+\frac{|k_{s.1} - k_{s.5}|}{\sqrt{(u_{k_{s.1}})^2+(u_{k_{s.5}})^2}} = \frac{|17,3 - 17,79|}{\sqrt{(1,7)^2+(0,41)^2}} = 0,280201 \leq 2,5 \rightarrow k_{s.1} \text{ e } k_{s.5} \text{ são compatíveis} 
+$$
+
+---
+### ks.2 e ks.3
+---
+
+$$
+\frac{|k_{s.2} - k_{s.3}|}{\sqrt{(u_{k_{s.2}})^2+(u_{k_{s.3}})^2}} = \frac{|17,64 - 17,79|}{\sqrt{(0,96)^2+(0,67)^2}} = 0,128130 \leq 2,5 \rightarrow k_{s.2} \text{ e } k_{s.3} \text{ são compatíveis} 
+$$
+
+---
+### ks.2 e ks.4
+---
+
+$$
+\frac{|k_{s.2} - k_{s.4}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.4}})^2}} = \frac{|17,64 - 17,41|}{\sqrt{(0,96)^2+(0,49)^2}} = 0,213393 \leq 2,5 \rightarrow k_{s.2} \text{ e } k_{s.4} \text{ são compatíveis} 
+$$
+
+---
+### ks.2 e ks.5
+---
+
+$$
+\frac{|k_{s.2} - k_{s.5}|}{\sqrt{(u_{k_{1.2}})^2+(u_{k_{1.5}})^2}} = \frac{|17,64 - 17,79|}{\sqrt{(0,96)^2+(0,41)^2}} = 0,143694 \leq 2,5 \rightarrow k_{s.2} \text{ e } k_{s.5} \text{ são compatíveis} 
+$$
+
+---
+### ks.3 e ks.4
+---
+
+$$
+\frac{|k_{s.3} - k_{s.4}|}{\sqrt{(u_{k_{s.3}})^2+(u_{k_{s.4}})^2}} = \frac{|17,79 - 17,41|}{\sqrt{(0,67)^2+(0,49)^2}} = 0,457798 \leq 2,5 \rightarrow k_{s.3} \text{ e } k_{s.4} \text{ são compatíveis} 
+$$
+
+---
+### ks.3 e ks.5
+---
+
+$$
+\frac{|k_{s.3} - k_{s.5}|}{\sqrt{(u_{k_{1.3}})^2+(u_{k_{1.5}})^2}} = \frac{|17,79 - 17,79|}{\sqrt{(0.67)^2+(0,41)^2}} = 0 \leq 2,5 \rightarrow k_{s.3} \text{ e } k_{s.5} \text{ são compatíveis} 
+$$
+
+---
+### ks.4 e ks.5
+---
+
+$$
+\frac{|k_{s.4} - k_{s.5}|}{\sqrt{(u_{k_{s.4}})^2+(u_{k_{s.5}})^2}} = \frac{|17,41 - 17,79|}{\sqrt{(0,49)^2+(0,41)^2}} = 0,594767 \leq 2,5 \rightarrow k_{s.4} \text{ e } k_{s.5} \text{ são compatíveis} 
+$$
+
+---
+
 
 * [ ] ks = ( $\pm$ ) N/m
 
