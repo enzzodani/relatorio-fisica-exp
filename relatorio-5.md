@@ -534,5 +534,11 @@ $$
 
 * [ ] Faça o teste de compatibilidade entre os valores de kS obtidos experimentalmente e por cálculo a partir de k1 e k2.
 
+### *Teste de compatibilidade*
+
+$$
+\frac{|k_{s.teo} - k_{s.med}|}{\sqrt{(u_{k_{s.teo}})^2+(u_{k_{s.med}})^2}} = \frac{|8,295 - 8,210|}{\sqrt{(0,0012)^2+(0,059)^2}} = 1,44 \leq 2,5 \rightarrow k_{s.teórico} \text{ e } k_{s.medido} \text{ são compatíveis} 
+$$
+
 # *Conclusão*
 * [ ] Faça a conclusão
