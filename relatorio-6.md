@@ -2,6 +2,8 @@
 
 # Objetivos do Experimento
 
+Neste experimento, exploraremos a Conservação de Energia Mecânica por meio da comparação entre dois modelos de medição propostos e os resultados obtidos experimentalmente. A análise desses dados será conduzida com o emprego de médias ponderadas, visando a uma compreensão mais precisa e crítica das relações energéticas envolvidas. Essa abordagem aprofundará a análise da concordância entre teoria e experimento, desenvolvendo habilidades analíticas e interpretativas fundamentais em nosso estudo de física.
+
 # Hipóteses, aproximações e modelo de medição
 
 ## Hipóteses
