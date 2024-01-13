@@ -52,6 +52,10 @@ Neste experimento, exploraremos a Conservação de Energia Mecânica por meio da
 
 ## Modelo de Medição
 
+$$
+\Delta x = \sqrt{\gamma h_1 h_2}
+$$
+
 # Análise dos resultados das medições
 
 * [ ] h1 = $(21,6 \pm 0,058) cm$ 
