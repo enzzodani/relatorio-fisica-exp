@@ -81,15 +81,27 @@ $$
 * [x] $\Delta x_1$ (Incerteza tipo A) = $(70,24667 \pm 0.081)$ cm 
 * [ ] $\gamma_1$ (Incerteza tipo C) = $( \pm )$ 
 
+$$
+u_{\gamma_1} = \frac{\Delta x}{h_1h_{21}}\sqrt{\frac{\Delta x²}{h_1²}\sigma_{h_1}² + \frac{\Delta x²}{h_{21}²}\sigma_{h_{21}}² + 4\sigma_{\Delta x}²} = 
+$$
+
 ## Situação 2
 * [x] $h_{22}$ (Inceteza tipo B) = $(120 \pm 0.29)$ cm
 * [ ] $\Delta x_2$ (Incerteza tipo A) = $( \pm )$ cm 
 * [ ] $\gamma_2$ (Incerteza tipo C) = $( \pm )$ 
 
+$$
+u_{\gamma_2} = \frac{\Delta x}{h_1h_{22}}\sqrt{\frac{\Delta x²}{h_1²}\sigma_{h_1}² + \frac{\Delta x²}{h_{22}²}\sigma_{h_{22}}² + 4\sigma_{\Delta x}²} = 
+$$
+
 ## Situação 3
 * [x] $h_{23}$ (Inceteza tipo B) = $(140 \pm 0.29)$ cm
 * [ ] $\Delta x_3$ (Incerteza tipo A) = $( \pm )$ cm 
 * [ ] $\gamma_3$ (Incerteza tipo C) = $( \pm )$ 
+
+$$
+u_{\gamma_3} = \frac{\Delta x}{h_1h_{23}}\sqrt{\frac{\Delta x²}{h_1²}\sigma_{h_1}² + \frac{\Delta x²}{h_{23}²}\sigma_{h_{23}}² + 4\sigma_{\Delta x}²} = 
+$$
 
 * [ ] Obtenha o valor mais provável de gamma e sua incerteza através do cálculo da média ponderada com base nos valores obtidos nas situações 1, 2 e 3
 
