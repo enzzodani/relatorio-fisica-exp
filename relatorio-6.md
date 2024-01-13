@@ -36,6 +36,10 @@ DX-h21 ; DX-h22 ; DX-h23
 70.30  ; 77.50  ; 82.10
 69.90  ; 77.40  ; 81.70
 
+frequencia dx-h21 = 1.05
+frequencia dx-h22 = 1.15
+frequencia dx-h23 = 1.40
+
 # Objetivos do Experimento
 
 Neste experimento, exploraremos a Conservação de Energia Mecânica por meio da comparação entre dois modelos de medição propostos e os resultados obtidos experimentalmente. A análise desses dados será conduzida com o emprego de médias ponderadas, visando a uma compreensão mais precisa e crítica das relações energéticas envolvidas. Essa abordagem aprofundará a análise da concordância entre teoria e experimento, desenvolvendo habilidades analíticas e interpretativas fundamentais em nosso estudo de física.
@@ -50,22 +54,22 @@ Neste experimento, exploraremos a Conservação de Energia Mecânica por meio da
 
 # Análise dos resultados das medições
 
-* [ ] h1 = $( \pm ) cm$ 
+* [ ] h1 = $(21,6 \pm 0,058) cm$ 
 * [ ] Escreva esplicitamente a expressão da incerta de gama dependente das variaǘeis h1, h2i, e delta X
 
 ## Situação 1
-* [ ] $h_{21}$ (Inceteza tipo ) = $( \pm )$ cm
-* [ ] $\Delta x_1$ (Incerteza tipo ) = $( \pm )$ cm 
+* [ ] $h_{21}$ (Inceteza tipo B) = $(100 \pm 0.29)$ cm
+* [ ] $\Delta x_1$ (Incerteza tipo A) = $(70,24667 \pm 0.081)$ cm 
 * [ ] $\gamma_1$ (Incerteza tipo ) = $( \pm )$ 
 
 ## Situação 2
-* [ ] $h_{22}$ (Inceteza tipo ) = $( \pm )$ cm
-* [ ] $\Delta x_2$ (Incerteza tipo ) = $( \pm )$ cm 
+* [ ] $h_{22}$ (Inceteza tipo B) = $(120 \pm 0.29)$ cm
+* [ ] $\Delta x_2$ (Incerteza tipo A) = $( \pm )$ cm 
 * [ ] $\gamma_2$ (Incerteza tipo ) = $( \pm )$ 
 
 ## Situação 3
-* [ ] $h_{23}$ (Inceteza tipo ) = $( \pm )$ cm
-* [ ] $\Delta x_3$ (Incerteza tipo ) = $( \pm )$ cm 
+* [ ] $h_{23}$ (Inceteza tipo B) = $(140 \pm 0.29)$ cm
+* [ ] $\Delta x_3$ (Incerteza tipo A) = $( \pm )$ cm 
 * [ ] $\gamma_3$ (Incerteza tipo ) = $( \pm )$ 
 
 * [ ] Obtenha o valor mais provável de gamma e sua incerteza através do cálculo da média ponderada com base nos valores obtidos nas situações 1, 2 e 3
