@@ -66,7 +66,14 @@ $$
 $$
 
 $$
-u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{\gamma} = \sqrt{\frac{\partial \gamma}{\partial h1}\sigma_{h_1} + \frac{\partial \gamma}{\partial h2}\sigma_{h_2} + \frac{\partial \gamma}{\partial \Delta x}\sigma_{\Delta x}}
+\frac{\partial (\frac{\Delta x²}{h_1h_2})}{\partial h1}$$
+
+$$
+u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{\gamma} = \sqrt{(\frac{\partial \gamma}{\partial h_1})²\sigma_{h_1}² + (\frac{\partial \gamma}{\partial h_2})²\sigma_{h_2}² + (\frac{\partial \gamma}{\partial \Delta x})²\sigma_{\Delta x}²} 
+
+\newline
+
+= \sqrt{(-\frac{ \Delta x²}{h_1²h_2})²\sigma_{h_1}² + (-\frac{\Delta x²}{h_1h_2²})²\sigma_{h_2}² + (\frac{2\Delta x}{h_1h_2})²\sigma_{\Delta x}²} = \frac{\Delta x}{h_1h_2}\sqrt{\frac{\Delta x²}{h_1²}\sigma_{h_1}² + \frac{\Delta x²}{h_2²}\sigma_{h_2}² + 4\sigma_{\Delta x}²}
 $$
 
 ## Situação 1
