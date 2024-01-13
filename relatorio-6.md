@@ -58,23 +58,31 @@ $$
 
 # Análise dos resultados das medições
 
-* [ ] h1 = $(21,6 \pm 0,058) cm$ 
-* [ ] Escreva esplicitamente a expressão da incerta de gama dependente das variaǘeis h1, h2i, e delta X
+* [x] h1 = $(21,6 \pm 0,058) cm$ 
+* [x] Escreva explicitamente a expressão da incerta de gama dependente das variaǘeis h1, h2i, e delta X
+
+$$
+\Delta x = \sqrt{\gamma h_1 h_2} \rightarrow \gamma = \frac{\Delta x²}{h_1h_2}
+$$
+
+$$
+u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{\gamma} = \sqrt{\frac{\partial \gamma}{\partial h1}\sigma_{h_1} + \frac{\partial \gamma}{\partial h2}\sigma_{h_2} + \frac{\partial \gamma}{\partial \Delta x}\sigma_{\Delta x}}
+$$
 
 ## Situação 1
-* [ ] $h_{21}$ (Inceteza tipo B) = $(100 \pm 0.29)$ cm
-* [ ] $\Delta x_1$ (Incerteza tipo A) = $(70,24667 \pm 0.081)$ cm 
-* [ ] $\gamma_1$ (Incerteza tipo ) = $( \pm )$ 
+* [x] $h_{21}$ (Inceteza tipo B) = $(100 \pm 0.29)$ cm
+* [x] $\Delta x_1$ (Incerteza tipo A) = $(70,24667 \pm 0.081)$ cm 
+* [ ] $\gamma_1$ (Incerteza tipo C) = $( \pm )$ 
 
 ## Situação 2
-* [ ] $h_{22}$ (Inceteza tipo B) = $(120 \pm 0.29)$ cm
+* [x] $h_{22}$ (Inceteza tipo B) = $(120 \pm 0.29)$ cm
 * [ ] $\Delta x_2$ (Incerteza tipo A) = $( \pm )$ cm 
-* [ ] $\gamma_2$ (Incerteza tipo ) = $( \pm )$ 
+* [ ] $\gamma_2$ (Incerteza tipo C) = $( \pm )$ 
 
 ## Situação 3
-* [ ] $h_{23}$ (Inceteza tipo B) = $(140 \pm 0.29)$ cm
+* [x] $h_{23}$ (Inceteza tipo B) = $(140 \pm 0.29)$ cm
 * [ ] $\Delta x_3$ (Incerteza tipo A) = $( \pm )$ cm 
-* [ ] $\gamma_3$ (Incerteza tipo ) = $( \pm )$ 
+* [ ] $\gamma_3$ (Incerteza tipo C) = $( \pm )$ 
 
 * [ ] Obtenha o valor mais provável de gamma e sua incerteza através do cálculo da média ponderada com base nos valores obtidos nas situações 1, 2 e 3
 
@@ -84,7 +92,7 @@ $$
 * [ ] Confira se γ é compatível ou discrepante com 4 e 20/7 (OBS: Como γ = 4 ou 20/7 são números exatos sua incerteza é nula)
 
 $$
-\frac{|_{} - _{}|}{\sqrt{(u_{})^2+(u_{})^2}} =
+\frac{|_{} - _{}|}{\sqrt{(u_{})^2+(u_{})^2}} = \leq 2,5
 $$
 
 # Conclusões
