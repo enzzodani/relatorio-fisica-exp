@@ -16,10 +16,6 @@ $$
 $$
 
 $$
-## Hipóteses
-* O momento de inécia do modelo dinâmico será o mesmo do momento de inércia do modelo estático
-
-## Aproximações
 
 ## Modelo de Medição
 
