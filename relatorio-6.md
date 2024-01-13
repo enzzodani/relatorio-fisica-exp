@@ -79,7 +79,11 @@ $$
 ## Situação 1
 * [x] $h_{21}$ (Inceteza tipo B) = $(100 \pm 0.29)$ cm
 * [x] $\Delta x_1$ (Incerteza tipo A) = $(70,247 \pm 0.081)$ cm 
-* [x] $\gamma_1$ (Incerteza tipo C) = $( \pm )$ 
+* [x] $\gamma_1$ (Incerteza tipo C) = $(2,285 \pm 0,010)$ 
+
+$$
+\gamma_1 = \frac{\Delta x_1²}{h_1h_{21}} = \frac{70,247²}{(21,600)(100)} = 2,285
+$$
 
 $$
 u_{\gamma_1} = \frac{\Delta x_1}{h_1h_{21}}\sqrt{(\frac{\Delta x_1}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_1}{h_{21}})²\sigma_{h_{21}}² + 4\sigma_{\Delta x_1}²} =
