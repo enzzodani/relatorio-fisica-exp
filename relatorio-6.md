@@ -108,14 +108,16 @@ u_{\gamma_3} = \frac{\Delta x_3}{h_1h_{23}}\sqrt{(\frac{\Delta x_3}{h_1})²\sigm
 $$
 
 * [ ] Obtenha o valor mais provável de gamma e sua incerteza através do cálculo da média ponderada com base nos valores obtidos nas situações 1, 2 e 3
-
-* [ ] $\gamma = ( \pm )$   
+* [ ] gamma medido $\gamma_m = ( \pm )$   
 
 # Teste de compatibilidade
 * [ ] Confira se γ é compatível ou discrepante com 4 e 20/7 (OBS: Como γ = 4 ou 20/7 são números exatos sua incerteza é nula)
 
 $$
-\frac{|_{} - _{}|}{\sqrt{(u_{})^2+(u_{})^2}} = \leq 2,5
+\frac{|\gamma_m - 4|}{\sqrt{(u_{\gamma_m})^2}} = \leq 2,5
+$$
+$$
+\frac{|\gamma_m - \frac{20}{7}|}{\sqrt{(u_{\gamma_m})^2}} = \leq 2,5
 $$
 
 # Conclusões
