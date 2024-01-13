@@ -58,7 +58,7 @@ $$
 
 # Análise dos resultados das medições
 
-* [x] h1 = $(21,6 \pm 0,058) cm$ 
+* [x] h1 = $(21,600 \pm 0,058) cm$ 
 * [x] Escreva explicitamente a expressão da incerta de gama dependente das variaǘeis h1, h2i, e delta X
 
 $$
@@ -78,11 +78,15 @@ $$
 
 ## Situação 1
 * [x] $h_{21}$ (Inceteza tipo B) = $(100 \pm 0.29)$ cm
-* [x] $\Delta x_1$ (Incerteza tipo A) = $(70,24667 \pm 0.081)$ cm 
+* [x] $\Delta x_1$ (Incerteza tipo A) = $(70,247 \pm 0.081)$ cm 
 * [ ] $\gamma_1$ (Incerteza tipo C) = $( \pm )$ 
 
 $$
-u_{\gamma_1} = \frac{\Delta x}{h_1h_{21}}\sqrt{\frac{\Delta x²}{h_1²}\sigma_{h_1}² + \frac{\Delta x²}{h_{21}²}\sigma_{h_{21}}² + 4\sigma_{\Delta x}²} = 
+u_{\gamma_1} = \frac{\Delta x_1}{h_1h_{21}}\sqrt{(\frac{\Delta x_1}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_1}{h_{21}})²\sigma_{h_{21}}² + 4\sigma_{\Delta x_1}²} \rightarrow 
+
+\newline
+
+= \frac{70,247}{(21,600)  (100)}\sqrt{(\frac{70,247}{21,600})² 0,058² + (\frac{70,247}{100})²0,29² + 4(0,081)²} = 
 $$
 
 ## Situação 2
@@ -91,7 +95,7 @@ $$
 * [ ] $\gamma_2$ (Incerteza tipo C) = $( \pm )$ 
 
 $$
-u_{\gamma_2} = \frac{\Delta x}{h_1h_{22}}\sqrt{\frac{\Delta x²}{h_1²}\sigma_{h_1}² + \frac{\Delta x²}{h_{22}²}\sigma_{h_{22}}² + 4\sigma_{\Delta x}²} = 
+u_{\gamma_2} = \frac{\Delta x_2}{h_1h_{22}}\sqrt{(\frac{\Delta x_2}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_2}{h_{22}})²\sigma_{h_{22}}² + 4\sigma_{\Delta x_2}²} = 
 $$
 
 ## Situação 3
@@ -100,7 +104,7 @@ $$
 * [ ] $\gamma_3$ (Incerteza tipo C) = $( \pm )$ 
 
 $$
-u_{\gamma_3} = \frac{\Delta x}{h_1h_{23}}\sqrt{\frac{\Delta x²}{h_1²}\sigma_{h_1}² + \frac{\Delta x²}{h_{23}²}\sigma_{h_{23}}² + 4\sigma_{\Delta x}²} = 
+u_{\gamma_3} = \frac{\Delta x_3}{h_1h_{23}}\sqrt{(\frac{\Delta x_3}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_3}{h_{23}})²\sigma_{h_{23}}² + 4\sigma_{\Delta x_3}²} = 
 $$
 
 * [ ] Obtenha o valor mais provável de gamma e sua incerteza através do cálculo da média ponderada com base nos valores obtidos nas situações 1, 2 e 3
