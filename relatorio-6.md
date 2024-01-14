@@ -95,33 +95,53 @@ $$
 
 ## Situação 2
 * [x] $h_{22}$ (Inceteza tipo B) = $(120 \pm 0.29)$ cm
-* [ ] $\Delta x_2$ (Incerteza tipo A) = $( \pm )$ cm 
-* [ ] $\gamma_2$ (Incerteza tipo C) = $( \pm )$ 
+* [x] $\Delta x_2$ (Incerteza tipo A) = $(77,220 \pm 0,093)$ cm 
+* [x] $\gamma_2$ (Incerteza tipo C) = $(2,300 \pm 0,010)$ 
 
 $$
-u_{\gamma_2} = \frac{\Delta x_2}{h_1h_{22}}\sqrt{(\frac{\Delta x_2}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_2}{h_{22}})²\sigma_{h_{22}}² + 4\sigma_{\Delta x_2}²} = 
+u_{\gamma_2} = \frac{\Delta x_2}{h_1h_{22}}\sqrt{(\frac{\Delta x_2}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_2}{h_{22}})²\sigma_{h_{22}}² + 4\sigma_{\Delta x_2}²} = \frac{77,220^2}{(21,600)(120)}\sqrt{(\frac{77,220}{21,600})²\sigma_{0,058}² + (\frac{77,220}{120})²\sigma_{0,29}² + 4\sigma_{0,093}²} = 0,010
 $$
 
 ## Situação 3
 * [x] $h_{23}$ (Inceteza tipo B) = $(140 \pm 0.29)$ cm
-* [ ] $\Delta x_3$ (Incerteza tipo A) = $( \pm )$ cm 
-* [ ] $\gamma_3$ (Incerteza tipo C) = $( \pm )$ 
+* [x] $\Delta x_3$ (Incerteza tipo A) = $(81,75 \pm 0,11)$ cm 
+* [x] $\gamma_3$ (Incerteza tipo C) = $(2,2100 \pm 0,0096)$ 
 
 $$
-u_{\gamma_3} = \frac{\Delta x_3}{h_1h_{23}}\sqrt{(\frac{\Delta x_3}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_3}{h_{23}})²\sigma_{h_{23}}² + 4\sigma_{\Delta x_3}²} = 
+u_{\gamma_3} = \frac{\Delta x_3}{h_1h_{23}}\sqrt{(\frac{\Delta x_3}{h_1})²\sigma_{h_1}² + (\frac{\Delta x_3}{h_{23}})²\sigma_{h_{23}}² + 4\sigma_{\Delta x_3}²} = \frac{81,75^2}{(21,600)(140)}\sqrt{(\frac{81,75}{21,600})²\sigma_{0,058}² + (\frac{81,75}{140})²\sigma_{0,29}² + 4\sigma_{0,11}²} = 0,0096
 $$
 
 * [ ] Obtenha o valor mais provável de gamma e sua incerteza através do cálculo da média ponderada com base nos valores obtidos nas situações 1, 2 e 3
-* [ ] gamma medido $\gamma_m = ( \pm )$   
+
+### Pesos
+$$
+p_{1}=\frac{1}{0,010^2}=10000
+p_{2}=\frac{1}{0,010^2}=10000
+p_{3}=\frac{1}{0,0096^2}=10850,6944
+$$
+
+### Incerteza da Média Ponderada
+
+$$
+u_{\gamma_{mp}}=\frac{1}{\sqrt{p_{1}+p_{2}+p_{3}}}=\frac{1}{\sqrt{10000+10000+10850,6944}}=0,0057
+$$
+
+### Média Ponderada
+
+$$
+\gamma_{mp}=\frac{\gamma{1}\times p_{1}+\gamma{2}\times p_{2}+\gamma{3}\times p_{3}}{p_{1}+p_{2}+p_{3}}=\frac{2,285\times 10000+2,300\times 10000+2,2100\times 10850,6944}{10000+10000+10850,6944}=2,2635
+$$
+
+* [x] gamma medido $\gamma_m = (2,2635 \pm 0,0057)$   
 
 # Teste de compatibilidade
-* [ ] Confira se γ é compatível ou discrepante com 4 e 20/7 (OBS: Como γ = 4 ou 20/7 são números exatos sua incerteza é nula)
+* [x] Confira se γ é compatível ou discrepante com 4 e 20/7 (OBS: Como γ = 4 ou 20/7 são números exatos sua incerteza é nula)
 
 $$
-\frac{|\gamma_m - 4|}{\sqrt{(u_{\gamma_m})^2}} = \leq 2,5
+\frac{|2,2635 - 4|}{\sqrt{(0,0057)^2}} = 304,64912 \leq 2,5 \text{ são discrepantes}
 $$
 $$
-\frac{|\gamma_m - \frac{20}{7}|}{\sqrt{(u_{\gamma_m})^2}} = \leq 2,5
+\frac{|2,2635 - \frac{20}{7}|}{\sqrt{(0,0057)^2}} = 104,14787 \leq 2,5 \text{ são discrepantes}
 $$
 
 # Conclusões
