@@ -58,7 +58,7 @@ Uma hipótese central para este experimento é a expectativa de que o momento de
 
 Modelo de medição Dinâmico
 $$
-I = \frac{md²g}{8h}(t²-t²_{base})
+I_d = \frac{md²g}{8h}(t²-t²_{base})
 $$
 
 Modelo de medição estático
@@ -71,6 +71,10 @@ $$
 
 # Análise dos resultados das medições
 * A analise da incerteza deve levar em conta apenas 3 variáveis no modelo dinâmico: massa, tempo e tempo base
+
+$$
+u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{Id} = \sqrt{[\frac{\partial I_d}{\partial m}]²\sigma_m² + [\frac{\partial I_d}{\partial t}]²\sigma_t² + [\frac{\partial F}{\partial t_{base}}]²\sigma_{t_{base}}²}
+$$
 
 # Teste de compatibilidade
 $$
