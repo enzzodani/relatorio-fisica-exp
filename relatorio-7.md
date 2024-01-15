@@ -70,10 +70,26 @@ I_{placa} = \frac{M(L²_1+L_2²)}{12}
 $$
 
 # Análise dos resultados das medições
-* A analise da incerteza deve levar em conta apenas 3 variáveis no modelo dinâmico: massa, tempo e tempo base
+* A analise da incerteza do modelo dinâmico deve levar em conta apenas 3 variáveis no modelo dinâmico: massa, tempo e tempo base
 
 $$
-u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{Id} = \sqrt{[\frac{\partial I_d}{\partial m}]²\sigma_m² + [\frac{\partial I_d}{\partial t}]²\sigma_t² + [\frac{\partial F}{\partial t_{base}}]²\sigma_{t_{base}}²}
+u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{Id} = \sqrt{[\frac{\partial I_d}{\partial m}]²\sigma_m² + [\frac{\partial I_d}{\partial t}]²\sigma_t² + [\frac{\partial I_d}{\partial t_{base}}]²\sigma_{t_{base}}²} 
+
+\newline 
+
+=\sqrt{[\frac{d²g}{8h}(t²-t²_{base})]²\sigma_m² + [\frac{md²g}{8h}(2t)]²\sigma_t² + [\frac{md²g}{8h}(-2t_{base})]²\sigma_{t_{base}}²}
+$$
+
+* Análise da incerteza do modelo estático do anel
+
+$$
+u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{I_{anel}} = 
+$$
+
+* Análise da incerteza do modelo estático do anel
+
+$$
+u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{I_{placa}} = 
 $$
 
 # Teste de compatibilidade
