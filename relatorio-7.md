@@ -78,6 +78,10 @@ u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \right
 \newline 
 
 =\sqrt{[\frac{d²g}{8h}(t²-t²_{base})]²\sigma_m² + [\frac{md²g}{8h}(2t)]²\sigma_t² + [\frac{md²g}{8h}(-2t_{base})]²\sigma_{t_{base}}²}
+
+\newline
+
+= \frac{d²g}{8h}\sqrt{(t²-t_{base}²)²\sigma_m²+4m²(t²\sigma_t²+t²_{base}\sigma_{base}²)}
 $$
 
 * Análise da incerteza do modelo estático do anel
