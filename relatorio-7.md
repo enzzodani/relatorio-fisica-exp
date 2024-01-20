@@ -70,18 +70,43 @@ I_{placa} = \frac{M(L²_1+L_2²)}{12}
 $$
 
 # Análise dos resultados das medições
+
+## Incertezas medidas
+### Modelo Dinâmico
+
+* $h = ( \pm )$ m
+* $d = ( \pm )$ m
+* $m = ( \pm )$ Kg
+* $t_o = ( \pm )$ s
+* $t_p = ( \pm )$ s
+* $t_a = ( \pm )$ s
+
+### Modelo Estático Placa
+* $M = ( \pm )$ Kg
+* $L_1 = ( \pm )$ m
+* $L_2 = ( \pm )$ m
+
+### Modelo Estático Anel
+* $M = ( \pm )$ Kg
+* $D_1 = ( \pm )$ m
+* $D_2 = ( \pm )$ m
+
+
+## Análise de incertezas
+
+
 * A analise da incerteza do modelo dinâmico deve levar em conta apenas 3 variáveis no modelo dinâmico: massa, tempo e tempo base
 
 $$
-u_{Id} = \sqrt{[\frac{\partial I_d}{\partial m}]²\sigma_m² + [\frac{\partial I_d}{\partial t}]²\sigma_t² + [\frac{\partial I_d}{\partial t_{base}}]²\sigma_{t_{base}}²} 
+u_{Id} = \sqrt{[\frac{\partial I_d}{\partial m}]²\sigma_m² + [\frac{\partial I_d}{\partial t}]²\sigma_t² + [\frac{\partial I_d}{\partial t_0}]²\sigma_{t_0}²} 
 $$
 
 $$
-=\sqrt{[\frac{d²g}{8h}(t²-t²_{base})]²\sigma_m² + [\frac{md²g}{8h}(2t)]²\sigma_t² + [\frac{md²g}{8h}(-2t_{base})]²\sigma_{t_{base}}²}
+=\sqrt{[\frac{d²g}{8h}(t²-t²_0)]²\sigma_m² + [\frac{md²g}{8h}(2t)]²\sigma_t² + [\frac{md²g}{8h}(-2t_{0})]²\sigma_{t_{0}}²}
 $$
 
 $$
-= \frac{I_d}{(t²-t²_{base})}\sqrt{[\frac{(t²-t_{base}²)}{m}\sigma_m]²+4(t²\sigma_t²+t²_{base}\sigma_{base}²)}
+= \frac{I_d}{(t²-t²_{0})}\sqrt{[\frac{(t²-t_{0}²)}{m}\sigma_m]²+4(t²\sigma_t²+t²_{0}\sigma_{0}²)}
 $$
 
 * Análise da incerteza do modelo estático do anel
@@ -94,6 +119,10 @@ $$
 = \sqrt{[\frac{D_1M}{4}]²\sigma_{D_1}² + [\frac{D_2M}{4}]²\sigma_{D_2}² + [\frac{D_1²+D_2²}{8}]²\sigma_{M}²}
 $$
 
+$$
+= \frac{2I_a}{D_1²+D_2²}\sqrt{(D_1\sigma_{D_1})²+(D_2\sigma_{D_2})²+(\frac{D_1²+D_2²}{2M}\sigma_M)²}
+$$
+
 * Análise da incerteza do modelo estático do anel
 
 $$
@@ -104,9 +133,22 @@ $$
 = \sqrt{[\frac{L_1M}{6}]²\sigma_{L_1}² + [\frac{L_2M}{6}]²\sigma_{L_2}² + [\frac{L_1²+L_2²}{12}]²\sigma_{M}²}
 $$
 
-# Teste de compatibilidade
 $$
-\frac{|_{} - _{}|}{\sqrt{(u_{})^2+(u_{})^2}} =
+= \frac{2I_p}{L_1²+L_2²}\sqrt{(L_1\sigma_{L_1})²+(L_2\sigma_{L_2})²+(\frac{L_1²+L_2²}{2M}\sigma_M)²}
+$$
+
+# Teste de compatibilidade
+
+## I da Placa Dinâmico x I da Placa Estático
+
+$$
+\frac{|I_{d} - I_{e}|}{\sqrt{(u_{I_d})^2+(u_{I_e})^2}} = \frac{| - |}{\sqrt{()^2+()^2}}\leq 2,5
+$$
+
+## I do Anel Dinâmico x I do Anel Estático
+
+$$
+\frac{|I_{d} - I_{e}|}{\sqrt{(u_{I_d})^2+(u_{I_e})^2}} = \frac{| - |}{\sqrt{()^2+()^2}}\leq 2,5
 $$
 
 # Conclusões
