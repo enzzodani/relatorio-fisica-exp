@@ -73,27 +73,35 @@ $$
 * A analise da incerteza do modelo dinâmico deve levar em conta apenas 3 variáveis no modelo dinâmico: massa, tempo e tempo base
 
 $$
-u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{Id} = \sqrt{[\frac{\partial I_d}{\partial m}]²\sigma_m² + [\frac{\partial I_d}{\partial t}]²\sigma_t² + [\frac{\partial I_d}{\partial t_{base}}]²\sigma_{t_{base}}²} 
+u_{Id} = \sqrt{[\frac{\partial I_d}{\partial m}]²\sigma_m² + [\frac{\partial I_d}{\partial t}]²\sigma_t² + [\frac{\partial I_d}{\partial t_{base}}]²\sigma_{t_{base}}²} 
+$$
 
-\newline 
-
+$$
 =\sqrt{[\frac{d²g}{8h}(t²-t²_{base})]²\sigma_m² + [\frac{md²g}{8h}(2t)]²\sigma_t² + [\frac{md²g}{8h}(-2t_{base})]²\sigma_{t_{base}}²}
+$$
 
-\newline
-
-= \frac{d²g}{8h}\sqrt{(t²-t_{base}²)²\sigma_m²+4m²(t²\sigma_t²+t²_{base}\sigma_{base}²)}
+$$
+= \frac{I_d}{(t²-t²_{base})}\sqrt{[\frac{(t²-t_{base}²)}{m}\sigma_m]²+4(t²\sigma_t²+t²_{base}\sigma_{base}²)}
 $$
 
 * Análise da incerteza do modelo estático do anel
 
 $$
-u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{I_{anel}} = 
+u_{I_{anel}} = \sqrt{[\frac{\partial I_a}{\partial D_1}]²\sigma_{D_1}² + [\frac{\partial I_a}{\partial D_2}]²\sigma_{D_2}² + [\frac{\partial I_a}{\partial M}]²\sigma_{M}²}
+$$
+
+$$
+= \sqrt{[\frac{D_1M}{4}]²\sigma_{D_1}² + [\frac{D_2M}{4}]²\sigma_{D_2}² + [\frac{D_1²+D_2²}{8}]²\sigma_{M}²}
 $$
 
 * Análise da incerteza do modelo estático do anel
 
 $$
-u_y = \sqrt{\sum^{n}_{i=1} [\frac{\partial F}{\partial x_i}]²\sigma_i²} \rightarrow u_{I_{placa}} = 
+u_{I_{placa}} = \sqrt{[\frac{\partial I_p}{\partial L_1}]²\sigma_{L_1}² + [\frac{\partial I_p}{\partial L_2}]²\sigma_{L_2}² + [\frac{\partial I_p}{\partial M}]²\sigma_{M}²}
+$$
+
+$$
+= \sqrt{[\frac{L_1M}{4}]²\sigma_{L_1}² + [\frac{L_2M}{4}]²\sigma_{L_2}² + [\frac{L_1²+L_2²}{8}]²\sigma_{M}²}
 $$
 
 # Teste de compatibilidade
