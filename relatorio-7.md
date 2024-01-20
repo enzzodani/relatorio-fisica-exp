@@ -101,7 +101,7 @@ u_{I_{placa}} = \sqrt{[\frac{\partial I_p}{\partial L_1}]²\sigma_{L_1}² + [\fr
 $$
 
 $$
-= \sqrt{[\frac{L_1M}{4}]²\sigma_{L_1}² + [\frac{L_2M}{4}]²\sigma_{L_2}² + [\frac{L_1²+L_2²}{8}]²\sigma_{M}²}
+= \sqrt{[\frac{L_1M}{6}]²\sigma_{L_1}² + [\frac{L_2M}{6}]²\sigma_{L_2}² + [\frac{L_1²+L_2²}{12}]²\sigma_{M}²}
 $$
 
 # Teste de compatibilidade
