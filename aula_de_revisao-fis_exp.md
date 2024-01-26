@@ -53,3 +53,9 @@ $$ \gamma = \frac{\Delta x²}{h1h2} $$
 * Quando uma incerteza depende de outras duas, você precisa fazer uma incerteza combinada
 
 ## Media Ponderada
+* Pesos:
+$$w_{i}=\frac{1}{u_{x_{i}}^{2}}$$
+* Incerteza da média ponderada:
+$$u_{mp}=\frac{1}{\sqrt{\sum_{i=0}^{n}w_{i}}}$$
+* Valor principal:
+$$X_{mp}=\frac{\sum_{i=1}^{n}w_{i}x_{i}}{\sum_{i=1}^{n}w_{i}}$$
