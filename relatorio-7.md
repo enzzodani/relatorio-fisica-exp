@@ -74,12 +74,12 @@ $$
 ## Incertezas medidas
 ### Modelo Dinâmico
 
-* $h = ( \pm )$ m
-* $d = ( \pm )$ m
-* $m = ( \pm )$ Kg
-* $t_o = ( \pm )$ s
-* $t_p = ( \pm )$ s
-* $t_a = ( \pm )$ s
+* $h = (0,7400 \pm 0,0029)$ m
+* $d = (0,040000 \pm 0,000029)$ m
+* $m = (0,04000 \pm 0,00058)$ Kg
+* $t_o = (12,030 \pm 0,070)$ s
+* $t_p = (12,969 \pm 0,051)$ s
+* $t_a = (13,226 \pm 0,071)$ s
 
 ### Modelo Estático Placa
 * $M = ( \pm )$ Kg
